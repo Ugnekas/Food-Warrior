@@ -389,6 +389,101 @@ MonoBehaviour:
       fruitDelay: 1
       isRandomPosition: 1
       velocity: {x: 0, y: 10}
+  - foods:
+    - isBomb: 0
+      x: 2
+      fruitDelay: 0
+      isRandomPosition: 0
+      velocity: {x: -3, y: 10}
+    - isBomb: 1
+      x: 0
+      fruitDelay: 0
+      isRandomPosition: 0
+      velocity: {x: 0, y: 10}
+  - foods:
+    - isBomb: 0
+      x: 0
+      fruitDelay: 0
+      isRandomPosition: 1
+      velocity: {x: 0, y: 10}
+    - isBomb: 0
+      x: 0
+      fruitDelay: 0.5
+      isRandomPosition: 0
+      velocity: {x: 5, y: 12}
+    - isBomb: 0
+      x: 0
+      fruitDelay: 1
+      isRandomPosition: 1
+      velocity: {x: 0, y: 8}
+  - foods:
+    - isBomb: 1
+      x: 0
+      fruitDelay: 0
+      isRandomPosition: 0
+      velocity: {x: 0, y: 10}
+    - isBomb: 1
+      x: -2
+      fruitDelay: 0
+      isRandomPosition: 0
+      velocity: {x: 0, y: 10}
+  - foods:
+    - isBomb: 0
+      x: 0
+      fruitDelay: 0
+      isRandomPosition: 0
+      velocity: {x: 0, y: 10}
+    - isBomb: 0
+      x: -1
+      fruitDelay: 0
+      isRandomPosition: 0
+      velocity: {x: 0, y: 10}
+    - isBomb: 0
+      x: -2
+      fruitDelay: 0
+      isRandomPosition: 0
+      velocity: {x: 0, y: 10}
+    - isBomb: 0
+      x: -3
+      fruitDelay: 0
+      isRandomPosition: 0
+      velocity: {x: 0, y: 10}
+    - isBomb: 0
+      x: -4
+      fruitDelay: 0
+      isRandomPosition: 0
+      velocity: {x: 0, y: 10}
+  - foods:
+    - isBomb: 0
+      x: 0
+      fruitDelay: 0
+      isRandomPosition: 1
+      velocity: {x: 0, y: 14}
+    - isBomb: 1
+      x: 0
+      fruitDelay: 0
+      isRandomPosition: 1
+      velocity: {x: 0, y: 14}
+    - isBomb: 0
+      x: 0
+      fruitDelay: 0
+      isRandomPosition: 0
+      velocity: {x: -5, y: 10}
+    - isBomb: 1
+      x: 0
+      fruitDelay: 0
+      isRandomPosition: 1
+      velocity: {x: 0, y: 12}
+    - isBomb: 0
+      x: 0
+      fruitDelay: 0
+      isRandomPosition: 1
+      velocity: {x: 0, y: 13}
+    - isBomb: 1
+      x: -4
+      fruitDelay: 0
+      isRandomPosition: 0
+      velocity: {x: 4, y: 12}
 --- !u!4 &1123378449
 Transform:
   m_ObjectHideFlags: 0
