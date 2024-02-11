@@ -287,3 +287,4 @@ MonoBehaviour:
   explodeParticles: {fileID: 2667863752731684287, guid: 3f74aba37ae59124b9b2f3bea8d52a2e, type: 3}
   leftSlice: {fileID: 3241399715342620603}
   rightSlice: {fileID: 1267296125065777007}
+  juiceColor: {r: 0.22659309, g: 0.7169812, b: 0.33213463, a: 1}

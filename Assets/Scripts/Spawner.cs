@@ -23,7 +23,7 @@ public class Wave
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject fruitPref;
+    public List<GameObject> fruitPrefs;
     public float spawnSpeed = 1f;
     public int bombChance = 20;
     public GameObject bombPref;
@@ -47,7 +47,7 @@ public class Spawner : MonoBehaviour
                 var food = wave.foods[i];
                 await new WaitForSeconds(food.fruitDelay);
 
-                var prefab = food.isBomb ? bombPref : fruitPref;
+                var prefab = food.isBomb ? bombPref : fruitPrefs[Random.Range(0,fruitPrefs.Count)];
                 var go = Instantiate(prefab);
                 var x = food.isRandomPosition ? Random.Range(-5f, 5f) : food.x;
                 go.transform.position = new Vector3(x, -5, 0);
@@ -74,7 +74,7 @@ public class Spawner : MonoBehaviour
 
     void Spawn()
     {
-        var prefab = Random.Range(0, 100) > bombChance ? fruitPref : bombPref;
+        var prefab = Random.Range(0, 100) > bombChance ? fruitPrefs[Random.Range(0, fruitPrefs.Count)] : bombPref;
 
         var obj = Instantiate(prefab);
         var x = Random.Range(-5f, 5f);

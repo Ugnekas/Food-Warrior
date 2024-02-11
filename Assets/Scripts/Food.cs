@@ -9,6 +9,7 @@ public class Food : MonoBehaviour
 
     public GameObject leftSlice;
     public GameObject rightSlice;
+    public Color juiceColor;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +39,8 @@ public class Food : MonoBehaviour
     {
         var obj = Instantiate(explodeParticles);
         obj.transform.position = transform.position;
+        obj.GetComponent<ParticleSystem>().startColor = juiceColor;
+        obj.GetComponentsInChildren<ParticleSystem>()[1].startColor = juiceColor;
 
         transform.DetachChildren();
         var leftRb = leftSlice.AddComponent<Rigidbody2D>();
