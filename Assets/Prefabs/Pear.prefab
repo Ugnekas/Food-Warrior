@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1267296125065777007}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.028, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -285,3 +285,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explodeParticles: {fileID: 2667863752731684287, guid: 3f74aba37ae59124b9b2f3bea8d52a2e, type: 3}
+  leftSlice: {fileID: 3241399715342620603}
+  rightSlice: {fileID: 1267296125065777007}
